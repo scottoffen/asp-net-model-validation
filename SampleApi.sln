@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApi.Attributes", "SampleApi.Attributes\SampleApi.Attributes.csproj", "{4AEC3BCC-A8EB-4B38-B74C-C383089FF4C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApi.FluentValidation", "SampleApi.FluentValidation\SampleApi.FluentValidation.csproj", "{28463D6C-E38E-4A63-933A-90096590EAC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApi.ValidatableObject", "SampleApi.ValidatableObject\SampleApi.ValidatableObject.csproj", "{E714A447-231F-4896-89D2-B0BD75734EEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApi.Attributes.Tests", "SampleApi.Attributes.Tests\SampleApi.Attributes.Tests.csproj", "{9650C494-6976-4F3E-BB39-378D00F1DB94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApi.ValidatableObject.Tests", "SampleApi.ValidatableObject.Tests\SampleApi.ValidatableObject.Tests.csproj", "{8400C09E-89A1-4C39-9C93-EE044CA4025A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApi.FluentValidation.Tests", "SampleApi.FluentValidation.Tests\SampleApi.FluentValidation.Tests.csproj", "{DFA51BF7-5720-459F-9A2B-507A3B15018C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApi.FluentValidationManual", "SampleApi.FluentValidationManual\SampleApi.FluentValidationManual.csproj", "{D3AAB70E-58DB-4301-B0B0-9E212625E89D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AEC3BCC-A8EB-4B38-B74C-C383089FF4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AEC3BCC-A8EB-4B38-B74C-C383089FF4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AEC3BCC-A8EB-4B38-B74C-C383089FF4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AEC3BCC-A8EB-4B38-B74C-C383089FF4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28463D6C-E38E-4A63-933A-90096590EAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28463D6C-E38E-4A63-933A-90096590EAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28463D6C-E38E-4A63-933A-90096590EAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28463D6C-E38E-4A63-933A-90096590EAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E714A447-231F-4896-89D2-B0BD75734EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E714A447-231F-4896-89D2-B0BD75734EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E714A447-231F-4896-89D2-B0BD75734EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E714A447-231F-4896-89D2-B0BD75734EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9650C494-6976-4F3E-BB39-378D00F1DB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9650C494-6976-4F3E-BB39-378D00F1DB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9650C494-6976-4F3E-BB39-378D00F1DB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9650C494-6976-4F3E-BB39-378D00F1DB94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8400C09E-89A1-4C39-9C93-EE044CA4025A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8400C09E-89A1-4C39-9C93-EE044CA4025A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8400C09E-89A1-4C39-9C93-EE044CA4025A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8400C09E-89A1-4C39-9C93-EE044CA4025A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA51BF7-5720-459F-9A2B-507A3B15018C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA51BF7-5720-459F-9A2B-507A3B15018C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA51BF7-5720-459F-9A2B-507A3B15018C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA51BF7-5720-459F-9A2B-507A3B15018C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3AAB70E-58DB-4301-B0B0-9E212625E89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3AAB70E-58DB-4301-B0B0-9E212625E89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3AAB70E-58DB-4301-B0B0-9E212625E89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3AAB70E-58DB-4301-B0B0-9E212625E89D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
